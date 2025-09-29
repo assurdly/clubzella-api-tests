@@ -1,0 +1,14 @@
+{
+    "company_name": "Toy, Botsford and Mosciski",
+    "company_email": "liasuliasu11+IVgmail.com",
+    "contact_full_name": "Ayomide Liasu",
+    "company_phone_number": "08023227567",
+    "type_id": 6, 
+    "country": "Nigeria",
+    "city": "Benin",
+    "onboard_meeting_date": "2025-09-30:00:00:00", 
+    "category_ids": [41,42,43], 
+    "nin": "74511543662",
+    "password": "Tested1!"
+    
+}

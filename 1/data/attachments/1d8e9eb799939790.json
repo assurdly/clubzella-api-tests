@@ -1,0 +1,12 @@
+{
+    "Content-Type": "application/json",
+    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWJfaWQiOjM3MSwidXNlcm5hbWUiOiJheW9taWRlKzFAYXNzdXJkbHkuY29tIiwidHlwZSI6IkZBTlMiLCJzY29wZSI6WyIvYXV0aC9sb2dpbiJdLCJpYXQiOjE3NTkxMTk4MjksImV4cCI6MTc1OTEyMzQyOSwic3ViIjoiYXlvbWlkZSsxQGFzc3VyZGx5LmNvbSJ9.iTjkzw1Vcb_iZiH_Sa_QaVjSL7guULu3AUNiRW0p7YM",
+    "User-Agent": "PostmanRuntime/7.39.1",
+    "Accept": "*/*",
+    "Cache-Control": "no-cache",
+    "Postman-Token": "d14ef4ae-c4eb-42b4-b794-6232251edd34",
+    "Host": "dev.api.clubzella.com",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Connection": "keep-alive",
+    "Content-Length": "57"
+}

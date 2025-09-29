@@ -1,0 +1,16 @@
+{
+    "phone_number": "07080507367",
+    "country": "NGA",
+    "address": "Lagos",
+    "about": "Finland Administrator Integration optical",
+    "file_id": 907,
+    
+    
+    "dob": "1999-11-20",
+    "availability": "online",
+    "instagram_social_url": "https://www.instagram.com/liasuliasu1",
+    "twitter_social_url": "https://www.x.com/theonlyliasu"
+    
+    
+}
+

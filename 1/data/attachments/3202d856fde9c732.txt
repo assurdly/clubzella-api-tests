@@ -1,0 +1,14 @@
+{
+    "company_name": "Skiles, Corkery and Heller",
+    "company_email": "Fleta_Bechtelar7@gmail.com",
+    "contact_full_name": "Willis Murphy",
+    "company_phone_number": "08101110011",
+    "type_id": 2, 
+    "country": "Nigeria",
+    "city": "Benin",
+    "onboard_meeting_date": "2025-01-01:00:00:00", 
+    
+    "nin": "222230011",
+    "password": "Tested1!"
+    
+}

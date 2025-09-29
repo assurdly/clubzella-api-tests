@@ -1,0 +1,10 @@
+{
+    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWJfaWQiOjM3MSwidXNlcm5hbWUiOiJheW9taWRlKzFAYXNzdXJkbHkuY29tIiwidHlwZSI6IkZBTlMiLCJzY29wZSI6WyIvYXV0aC9sb2dpbiJdLCJpYXQiOjE3NTkxMTk4MjksImV4cCI6MTc1OTEyMzQyOSwic3ViIjoiYXlvbWlkZSsxQGFzc3VyZGx5LmNvbSJ9.iTjkzw1Vcb_iZiH_Sa_QaVjSL7guULu3AUNiRW0p7YM",
+    "User-Agent": "PostmanRuntime/7.39.1",
+    "Accept": "*/*",
+    "Cache-Control": "no-cache",
+    "Postman-Token": "7b61a7ca-3238-4bbb-b101-16bcbde25f12",
+    "Host": "dev.api.clubzella.com",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Connection": "keep-alive"
+}
