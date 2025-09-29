@@ -1,0 +1,1 @@
+{"message":"Successfully fetched user types","data":[{"id":2,"name":"Brands","description":"brands","slug":"BRANDS"},{"id":3,"name":"Creators","description":"creator","slug":"CREATORS"},{"id":4,"name":"Creatives","description":null,"slug":"CREATIVES"},{"id":5,"name":"Fans","description":"Fan","slug":"FANS"},{"id":6,"name":"Vendors","description":null,"slug":"VENDORS"}]}

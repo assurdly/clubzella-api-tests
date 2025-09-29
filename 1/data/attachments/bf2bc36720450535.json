@@ -1,0 +1,15 @@
+{
+    "Access-Control-Allow-Credentials": "true",
+    "Access-Control-Expose-Headers": "access-token,access_token,Set-Cookie,sessionId",
+    "Content-Length": "87",
+    "Content-Type": "application/json; charset=utf-8",
+    "Date": "Mon, 29 Sep 2025 04:21:06 GMT",
+    "Etag": "W/\"57-ioO+Kw5FmBXxF7fMx3Dc5+XJ864\"",
+    "Ratelimit-Limit": "5",
+    "Ratelimit-Policy": "5;w=3600",
+    "Ratelimit-Remaining": "0",
+    "Ratelimit-Reset": "3599",
+    "Retry-After": "3599",
+    "Vary": "Origin",
+    "X-Powered-By": "Express"
+}

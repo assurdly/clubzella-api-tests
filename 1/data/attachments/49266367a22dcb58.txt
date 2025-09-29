@@ -1,0 +1,6 @@
+{
+    "bank_id": 1,
+    "account_number": "0053941667",
+    "account_name": "Adewunmi Akinsanya",
+    "bvn": "22218571110"
+}

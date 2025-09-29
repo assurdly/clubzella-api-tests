@@ -1,0 +1,1 @@
+{"code":"200","data":{"rate_ng":583770.06,"rate_usd":364.8562875,"user_country":"US","currency":"USD"},"success":true,"message":"Operation completed successfully","timestamp":"2025-09-29T04:21:20.768Z"}

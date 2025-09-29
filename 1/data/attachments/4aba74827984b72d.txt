@@ -1,0 +1,9 @@
+{
+  "street": "Test House",
+  "city": "Lagos",
+  "state": "Lagos",
+  "postal_code": "",
+  "country": "Nigeria",
+  "country_code": "NGN",
+  "phone_number": "08108968515"
+}

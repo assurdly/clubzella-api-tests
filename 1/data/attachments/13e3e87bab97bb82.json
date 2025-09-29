@@ -1,0 +1,11 @@
+{
+    "Access-Control-Allow-Credentials": "true",
+    "Access-Control-Expose-Headers": "access-token,access_token,Set-Cookie,sessionId",
+    "Content-Length": "159",
+    "Content-Security-Policy": "default-src 'none'",
+    "Content-Type": "text/html; charset=utf-8",
+    "Date": "Mon, 29 Sep 2025 04:21:21 GMT",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Powered-By": "Express"
+}
