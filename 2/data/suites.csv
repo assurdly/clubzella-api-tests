@@ -1,0 +1,370 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","68","List Comics Series - Category","Zella API Services - Users - QA","Wed Oct 01 18:46:24 UTC 2025","passed","Wed Oct 01 18:46:24 UTC 2025","Chapter/Category","Comics","",""
+"","76","Get Profile","Zella API Services - Users - QA","Wed Oct 01 18:46:22 UTC 2025","passed","Wed Oct 01 18:46:22 UTC 2025","Info > Get Profile","Profile","",""
+"## Refresh Token Endpoint
+
+This endpoint is used to obtain a new access token using a valid refresh token. It is part of the authentication flow, allowing users to maintain their session without needing to log in again.
+
+### Request
+
+- **Method**: POST
+    
+- **URL**: `{{rootUrl}}/auth/refresh-token`
+    
+- **Request Body**: The request must include a JSON object with the following key:
+    
+    - `refresh_token` (string): A valid refresh token that was previously issued to the user. This token is used to authenticate the request and generate a new access token.
+        
+
+### Example Request Body
+
+``` json
+{
+  ""refresh_token"": ""your_refresh_token_here""
+}
+
+ ```
+
+### Response
+
+Upon successful processing of the request, the response will contain a JSON object with the new access token and potentially other relevant information. The structure of the response typically includes:
+
+- `access_token` (string): The newly issued access token that the client can use for subsequent authenticated requests.
+    
+- `expires_in` (integer): The duration in seconds for which the access token is valid.
+    
+
+### Example Response
+
+``` json
+{
+  ""access_token"": ""new_access_token_here"",
+  ""expires_in"": 3600
+}
+
+ ```
+
+Ensure that the refresh token is valid and has not expired to receive a successful response.","70","Refresh token - Empty token","Zella API Services - Users - QA","Wed Oct 01 18:46:19 UTC 2025","passed","Wed Oct 01 18:46:19 UTC 2025","Login > Refresh Token","Authentication","",""
+"","75","Update cart item quantity","Zella API Services - Users - QA","Wed Oct 01 18:46:38 UTC 2025","passed","Wed Oct 01 18:46:38 UTC 2025","Update cart item quantity","Carts","",""
+"","66","Get order transactions","Zella API Services - Users - QA","Wed Oct 01 18:46:37 UTC 2025","passed","Wed Oct 01 18:46:37 UTC 2025","Order transactions","Orders","",""
+"","68","Update design request images","Zella API Services - Users - QA","Wed Oct 01 18:46:23 UTC 2025","passed","Wed Oct 01 18:46:23 UTC 2025","Brands > Request Uploads > Update design requests uploads","Design request","",""
+"","79","Delete Shipping Address","Zella API Services - Users - QA","Wed Oct 01 18:46:21 UTC 2025","passed","Wed Oct 01 18:46:21 UTC 2025","Shipping Address > Delete Shipping Address","Profile","",""
+"","11","Set new password","Zella API Services - Users - QA","Wed Oct 01 18:46:20 UTC 2025","broken","Wed Oct 01 18:46:20 UTC 2025","Forget password > Set new password","Authentication","",""
+"","66","Add design request","Zella API Services - Users - QA","Wed Oct 01 18:46:23 UTC 2025","passed","Wed Oct 01 18:46:23 UTC 2025","Brands > Add request","Design request","",""
+"","76","Challenges","Zella API Services - Users - QA","Wed Oct 01 18:46:26 UTC 2025","passed","Wed Oct 01 18:46:26 UTC 2025","Get Challenges","Dashboard","",""
+"","77","Clear cart","Zella API Services - Users - QA","Wed Oct 01 18:46:38 UTC 2025","passed","Wed Oct 01 18:46:38 UTC 2025","Clear Cart","Carts","",""
+"","75","Get User Types","Zella API Services - Users - QA","Wed Oct 01 18:46:37 UTC 2025","passed","Wed Oct 01 18:46:37 UTC 2025","Get User Types","Utilities","",""
+"","67","Initialize payment: NGN - Kora","Zella API Services - Users - QA","Wed Oct 01 18:46:37 UTC 2025","passed","Wed Oct 01 18:46:37 UTC 2025","Payment > Initialize payment","Orders","",""
+"","68","Get Order","Zella API Services - Users - QA","Wed Oct 01 18:46:36 UTC 2025","passed","Wed Oct 01 18:46:36 UTC 2025","Orders operations > Get order","Orders","",""
+"","183","Reset Password","Zella API Services - Users - QA","Wed Oct 01 18:46:20 UTC 2025","passed","Wed Oct 01 18:46:20 UTC 2025","Forget password > Reset Password","Authentication","",""
+"","65","Merchant List Comics Series - Category","Zella API Services - Users - QA","Wed Oct 01 18:46:24 UTC 2025","passed","Wed Oct 01 18:46:24 UTC 2025","Chapter/Category","Comics","",""
+"","68","Get Single comics Series","Zella API Services - Users - QA","Wed Oct 01 18:46:24 UTC 2025","passed","Wed Oct 01 18:46:24 UTC 2025","Chapter/Category","Comics","",""
+"","69","Get Profile - No Auth Token","Zella API Services - Users - QA","Wed Oct 01 18:46:22 UTC 2025","passed","Wed Oct 01 18:46:22 UTC 2025","Info > Get Profile","Profile","",""
+"","70","Login - empty required field","Zella API Services - Users - QA","Wed Oct 01 18:46:19 UTC 2025","passed","Wed Oct 01 18:46:19 UTC 2025","Login > Login","Authentication","",""
+"","73","Add Shipping Address - Invalid Token","Zella API Services - Users - QA","Wed Oct 01 18:46:20 UTC 2025","passed","Wed Oct 01 18:46:20 UTC 2025","Shipping Address > Add Shipping Address","Profile","",""
+"","66","Upload design request images","Zella API Services - Users - QA","Wed Oct 01 18:46:23 UTC 2025","passed","Wed Oct 01 18:46:23 UTC 2025","Brands > Request Uploads > Upload design request media","Design request","",""
+"","89","Update Shipping Address","Zella API Services - Users - QA","Wed Oct 01 18:46:21 UTC 2025","passed","Wed Oct 01 18:46:21 UTC 2025","Shipping Address > Update Shipping address","Profile","",""
+"","66","Get Orders","Zella API Services - Users - QA","Wed Oct 01 18:46:36 UTC 2025","passed","Wed Oct 01 18:46:36 UTC 2025","Orders operations > Get orders","Orders","",""
+"","66","Get Comic Character","Zella API Services - Users - QA","Wed Oct 01 18:46:24 UTC 2025","passed","Wed Oct 01 18:46:24 UTC 2025","Characters","Comics","",""
+"type_id  
+1 - Fans
+
+2 - Managers
+
+3 - Celebrities","77","Signup - Invalid Phone Number","Zella API Services - Users - QA","Wed Oct 01 18:46:18 UTC 2025","failed","Wed Oct 01 18:46:18 UTC 2025","Fans","Onboarding","",""
+"","76","List Shipping Address","Zella API Services - Users - QA","Wed Oct 01 18:46:20 UTC 2025","passed","Wed Oct 01 18:46:20 UTC 2025","Shipping Address > List Shipping Address","Profile","",""
+"type_id  
+1 - Fans
+
+2 - Managers
+
+3 - Celebrities","85","Signup - weak password complexity","Zella API Services - Users - QA","Wed Oct 01 18:46:17 UTC 2025","failed","Wed Oct 01 18:46:18 UTC 2025","Clients - Vendors and Brands","Onboarding","",""
+"","73","Add Shipping Address - No Auth Token","Zella API Services - Users - QA","Wed Oct 01 18:46:20 UTC 2025","passed","Wed Oct 01 18:46:20 UTC 2025","Shipping Address > Add Shipping Address","Profile","",""
+"","73","Reset Password - Invalid email address","Zella API Services - Users - QA","Wed Oct 01 18:46:20 UTC 2025","passed","Wed Oct 01 18:46:20 UTC 2025","Forget password > Reset Password","Authentication","",""
+"","9","Initialize payment: USD - Stripe","Zella API Services - Users - QA","Wed Oct 01 18:46:37 UTC 2025","broken","Wed Oct 01 18:46:37 UTC 2025","Payment > Initialize payment","Orders","",""
+"type_id  
+1 - Fans
+
+2 - Managers
+
+3 - Celebrities","75","Signup - Success","Zella API Services - Users - QA","Wed Oct 01 18:46:18 UTC 2025","failed","Wed Oct 01 18:46:18 UTC 2025","Creators","Onboarding","",""
+"","89","Add Shipping Address","Zella API Services - Users - QA","Wed Oct 01 18:46:20 UTC 2025","passed","Wed Oct 01 18:46:20 UTC 2025","Shipping Address > Add Shipping Address","Profile","",""
+"","79","Comics records","Zella API Services - Users - QA","Wed Oct 01 18:46:25 UTC 2025","passed","Wed Oct 01 18:46:26 UTC 2025","Get comics records","Dashboard","",""
+"","4986","Get shipment rate","Zella API Services - Users - QA","Wed Oct 01 18:46:31 UTC 2025","passed","Wed Oct 01 18:46:36 UTC 2025","Shipment > Get shipment rate","Orders","",""
+"type_id  
+1 - Fans
+
+2 - Managers
+
+3 - Celebrities","656","Signup - Brands","Zella API Services - Users - QA","Wed Oct 01 18:46:16 UTC 2025","passed","Wed Oct 01 18:46:17 UTC 2025","Clients - Vendors and Brands","Onboarding","",""
+"","72","Upload media","Zella API Services - Users - QA","Wed Oct 01 18:46:23 UTC 2025","passed","Wed Oct 01 18:46:23 UTC 2025","","Media","",""
+"type_id  
+1 - Fans
+
+2 - Managers
+
+3 - Celebrities","77","Signup - Invalid Email format","Zella API Services - Users - QA","Wed Oct 01 18:46:17 UTC 2025","passed","Wed Oct 01 18:46:17 UTC 2025","Clients - Vendors and Brands","Onboarding","",""
+"","78","Get Occassions","Zella API Services - Users - QA","Wed Oct 01 18:46:37 UTC 2025","passed","Wed Oct 01 18:46:37 UTC 2025","Get Occassions","Utilities","",""
+"","139","Login - brand","Zella API Services - Users - QA","Wed Oct 01 18:46:19 UTC 2025","passed","Wed Oct 01 18:46:19 UTC 2025","Local - do not change","Authentication","",""
+"","65","test payment","Zella API Services - Users - QA","Wed Oct 01 18:46:37 UTC 2025","passed","Wed Oct 01 18:46:37 UTC 2025","Payment","Orders","",""
+"","67","View all uploads","Zella API Services - Users - QA","Wed Oct 01 18:46:25 UTC 2025","passed","Wed Oct 01 18:46:25 UTC 2025","Creators > Participation records > Design uploads > View all uploads","Challenges","",""
+"","66","Update order items","Zella API Services - Users - QA","Wed Oct 01 18:46:37 UTC 2025","passed","Wed Oct 01 18:46:37 UTC 2025","Orders operations > Update order items","Orders","",""
+"type_id  
+1 - Fans
+
+2 - Managers
+
+3 - Celebrities","76","Signup - Invalid Email Format","Zella API Services - Users - QA","Wed Oct 01 18:46:18 UTC 2025","failed","Wed Oct 01 18:46:18 UTC 2025","Fans","Onboarding","",""
+"","68","Download media","Zella API Services - Users - QA","Wed Oct 01 18:46:23 UTC 2025","passed","Wed Oct 01 18:46:23 UTC 2025","","Media","",""
+"","71","Get Shipping Address by ID - No Auth token","Zella API Services - Users - QA","Wed Oct 01 18:46:21 UTC 2025","passed","Wed Oct 01 18:46:21 UTC 2025","Shipping Address > Get Shipping address by ID","Profile","",""
+"","11","Confirm Reset Password","Zella API Services - Users - QA","Wed Oct 01 18:46:20 UTC 2025","broken","Wed Oct 01 18:46:20 UTC 2025","Forget password > Confirm reset password","Authentication","",""
+"type_id  
+1 - Fans
+
+2 - Managers
+
+3 - Celebrities","73","Complete Registration - Expired token","Zella API Services - Users - QA","Wed Oct 01 18:46:18 UTC 2025","failed","Wed Oct 01 18:46:18 UTC 2025","Complete/Verify Account","Onboarding","",""
+"type_id  
+1 - Fans
+
+2 - Managers
+
+3 - Celebrities","74","Signup - Invalid Email Format","Zella API Services - Users - QA","Wed Oct 01 18:46:18 UTC 2025","failed","Wed Oct 01 18:46:18 UTC 2025","Creators","Onboarding","",""
+"","66","View all records","Zella API Services - Users - QA","Wed Oct 01 18:46:25 UTC 2025","passed","Wed Oct 01 18:46:25 UTC 2025","Creators > Participation records > Records > View all records","Challenges","",""
+"","70","Get Shipping Address by ID - Invalid token","Zella API Services - Users - QA","Wed Oct 01 18:46:21 UTC 2025","passed","Wed Oct 01 18:46:21 UTC 2025","Shipping Address > Get Shipping address by ID","Profile","",""
+"","75","Reset Password - empty required field","Zella API Services - Users - QA","Wed Oct 01 18:46:20 UTC 2025","passed","Wed Oct 01 18:46:20 UTC 2025","Forget password > Reset Password","Authentication","",""
+"","68","Delete design request","Zella API Services - Users - QA","Wed Oct 01 18:46:23 UTC 2025","passed","Wed Oct 01 18:46:23 UTC 2025","Brands > Edit request","Design request","",""
+"","72","List Bank Accounts","Zella API Services - Users - QA","Wed Oct 01 18:46:21 UTC 2025","passed","Wed Oct 01 18:46:22 UTC 2025","Bank and Bank Accounts > List Bank Accounts","Profile","",""
+"","65","Delete upload design","Zella API Services - Users - QA","Wed Oct 01 18:46:25 UTC 2025","passed","Wed Oct 01 18:46:25 UTC 2025","Creators > Participate > Delete upload designs","Challenges","",""
+"","68","records","Zella API Services - Users - QA","Wed Oct 01 18:46:24 UTC 2025","passed","Wed Oct 01 18:46:25 UTC 2025","Comics Record/Read","Comics","",""
+"","82","Get products variants","Zella API Services - Users - QA","Wed Oct 01 18:46:37 UTC 2025","passed","Wed Oct 01 18:46:37 UTC 2025","Get Product Variants","Products","",""
+"","67","Create order","Zella API Services - Users - QA","Wed Oct 01 18:46:36 UTC 2025","passed","Wed Oct 01 18:46:36 UTC 2025","Orders operations > Create order","Orders","",""
+"","75","Get Categories","Zella API Services - Users - QA","Wed Oct 01 18:46:37 UTC 2025","passed","Wed Oct 01 18:46:37 UTC 2025","Get Categories","Utilities","",""
+"","72","Login - vendors","Zella API Services - Users - QA","Wed Oct 01 18:46:20 UTC 2025","passed","Wed Oct 01 18:46:20 UTC 2025","Local - do not change","Authentication","",""
+"","67","Upload media docs","Zella API Services - Users - QA","Wed Oct 01 18:46:23 UTC 2025","passed","Wed Oct 01 18:46:23 UTC 2025","","Media","",""
+"","75","Get product by ID","Zella API Services - Users - QA","Wed Oct 01 18:46:37 UTC 2025","passed","Wed Oct 01 18:46:38 UTC 2025","Get Product by ID","Products","",""
+"","67","Export Creatives","Zella API Services - Users - QA","Wed Oct 01 18:46:24 UTC 2025","passed","Wed Oct 01 18:46:24 UTC 2025","","Tasks","",""
+"","65","Start","Zella API Services - Users - QA","Wed Oct 01 18:46:25 UTC 2025","passed","Wed Oct 01 18:46:25 UTC 2025","Creators > Participate > Start/Initialize/Create record","Challenges","",""
+"","69","Comics records  - Invalid Token","Zella API Services - Users - QA","Wed Oct 01 18:46:26 UTC 2025","passed","Wed Oct 01 18:46:26 UTC 2025","Get comics records","Dashboard","",""
+"","67","Update design request","Zella API Services - Users - QA","Wed Oct 01 18:46:23 UTC 2025","passed","Wed Oct 01 18:46:23 UTC 2025","Brands > Edit request","Design request","",""
+"","66","Submit challenge","Zella API Services - Users - QA","Wed Oct 01 18:46:25 UTC 2025","passed","Wed Oct 01 18:46:25 UTC 2025","Creators > Participate > Submit","Challenges","",""
+"","67","View design requests","Zella API Services - Users - QA","Wed Oct 01 18:46:23 UTC 2025","passed","Wed Oct 01 18:46:23 UTC 2025","Brands > View requests","Design request","",""
+"","67","View","Zella API Services - Users - QA","Wed Oct 01 18:46:25 UTC 2025","passed","Wed Oct 01 18:46:25 UTC 2025","","Comics","",""
+"","70","List Shipping Address - No Auth token","Zella API Services - Users - QA","Wed Oct 01 18:46:21 UTC 2025","passed","Wed Oct 01 18:46:21 UTC 2025","Shipping Address > List Shipping Address","Profile","",""
+"","10","Get Banks","Zella API Services - Users - QA","Wed Oct 01 18:46:37 UTC 2025","broken","Wed Oct 01 18:46:37 UTC 2025","Get Banks","Utilities","",""
+"","68","Bulk approve/decline design records","Zella API Services - Users - QA","Wed Oct 01 18:46:23 UTC 2025","passed","Wed Oct 01 18:46:23 UTC 2025","Brands > Request records/submissions > Bulk approve/decline design records","Design request","",""
+"","16","Get Social Networks","Zella API Services - Users - QA","Wed Oct 01 18:46:19 UTC 2025","broken","Wed Oct 01 18:46:19 UTC 2025","Login > Get Social Networks","Authentication","",""
+"","71","Get Profile - Invalid token","Zella API Services - Users - QA","Wed Oct 01 18:46:22 UTC 2025","passed","Wed Oct 01 18:46:22 UTC 2025","Info > Get Profile","Profile","",""
+"","67","Upload media image","Zella API Services - Users - QA","Wed Oct 01 18:46:23 UTC 2025","passed","Wed Oct 01 18:46:24 UTC 2025","","Media","",""
+"","75","Get Shipping Address by ID - Invalid ID","Zella API Services - Users - QA","Wed Oct 01 18:46:21 UTC 2025","passed","Wed Oct 01 18:46:21 UTC 2025","Shipping Address > Get Shipping address by ID","Profile","",""
+"","76","Update Shipping Address  - empty required field","Zella API Services - Users - QA","Wed Oct 01 18:46:21 UTC 2025","passed","Wed Oct 01 18:46:21 UTC 2025","Shipping Address > Update Shipping address","Profile","",""
+"type_id  
+1 - Fans
+
+2 - Managers
+
+3 - Celebrities","74","Signup - Empty required field","Zella API Services - Users - QA","Wed Oct 01 18:46:18 UTC 2025","failed","Wed Oct 01 18:46:18 UTC 2025","Creators","Onboarding","",""
+"","71","Update Profile - No Auth token","Zella API Services - Users - QA","Wed Oct 01 18:46:22 UTC 2025","passed","Wed Oct 01 18:46:22 UTC 2025","Info > Update Profile","Profile","",""
+"","70","View design request records","Zella API Services - Users - QA","Wed Oct 01 18:46:23 UTC 2025","passed","Wed Oct 01 18:46:23 UTC 2025","Brands > Request records/submissions > View design request records","Design request","",""
+"","74","Add Shipping Address - Empty required field","Zella API Services - Users - QA","Wed Oct 01 18:46:20 UTC 2025","passed","Wed Oct 01 18:46:20 UTC 2025","Shipping Address > Add Shipping Address","Profile","",""
+"","67","Update order shipment address","Zella API Services - Users - QA","Wed Oct 01 18:46:36 UTC 2025","passed","Wed Oct 01 18:46:36 UTC 2025","Orders operations > Update order shipment address","Orders","",""
+"","67","Accept/Reject assignments","Zella API Services - Users - QA","Wed Oct 01 18:46:37 UTC 2025","passed","Wed Oct 01 18:46:37 UTC 2025","[Vendors] order assignments > Accept/Reject assignments","Orders","",""
+"## Refresh Token Endpoint
+
+This endpoint is used to obtain a new access token using a valid refresh token. It is part of the authentication flow, allowing users to maintain their session without needing to log in again.
+
+### Request
+
+- **Method**: POST
+    
+- **URL**: `{{rootUrl}}/auth/refresh-token`
+    
+- **Request Body**: The request must include a JSON object with the following key:
+    
+    - `refresh_token` (string): A valid refresh token that was previously issued to the user. This token is used to authenticate the request and generate a new access token.
+        
+
+### Example Request Body
+
+``` json
+{
+  ""refresh_token"": ""your_refresh_token_here""
+}
+
+ ```
+
+### Response
+
+Upon successful processing of the request, the response will contain a JSON object with the new access token and potentially other relevant information. The structure of the response typically includes:
+
+- `access_token` (string): The newly issued access token that the client can use for subsequent authenticated requests.
+    
+- `expires_in` (integer): The duration in seconds for which the access token is valid.
+    
+
+### Example Response
+
+``` json
+{
+  ""access_token"": ""new_access_token_here"",
+  ""expires_in"": 3600
+}
+
+ ```
+
+Ensure that the refresh token is valid and has not expired to receive a successful response.","71","Refresh token","Zella API Services - Users - QA","Wed Oct 01 18:46:19 UTC 2025","passed","Wed Oct 01 18:46:19 UTC 2025","Login > Refresh Token","Authentication","",""
+"","66","List all comics episodes","Zella API Services - Users - QA","Wed Oct 01 18:46:24 UTC 2025","passed","Wed Oct 01 18:46:24 UTC 2025","Publications/Episodes/Releases","Comics","",""
+"","67","View uploads by recordID","Zella API Services - Users - QA","Wed Oct 01 18:46:25 UTC 2025","passed","Wed Oct 01 18:46:25 UTC 2025","Creators > Participation records > Design uploads > View uploads by recordID","Challenges","",""
+"type_id  
+1 - Fans
+
+2 - Managers
+
+3 - Celebrities","74","Signup - Invalid Phone Number","Zella API Services - Users - QA","Wed Oct 01 18:46:18 UTC 2025","failed","Wed Oct 01 18:46:18 UTC 2025","Creators","Onboarding","",""
+"","68","View design request","Zella API Services - Users - QA","Wed Oct 01 18:46:23 UTC 2025","passed","Wed Oct 01 18:46:23 UTC 2025","Brands > View request","Design request","",""
+"","69","Add Bank Account","Zella API Services - Users - QA","Wed Oct 01 18:46:21 UTC 2025","passed","Wed Oct 01 18:46:21 UTC 2025","Bank and Bank Accounts > Add Bank Account","Profile","",""
+"type_id  
+1 - Fans
+
+2 - Managers
+
+3 - Celebrities","15","Complete Registrations","Zella API Services - Users - QA","Wed Oct 01 18:46:18 UTC 2025","broken","Wed Oct 01 18:46:18 UTC 2025","Complete/Verify Account","Onboarding","",""
+"type_id  
+1 - Fans
+
+2 - Managers
+
+3 - Celebrities","80","Signup - Empty required field","Zella API Services - Users - QA","Wed Oct 01 18:46:17 UTC 2025","passed","Wed Oct 01 18:46:17 UTC 2025","Clients - Vendors and Brands","Onboarding","",""
+"","66","Get Comic Character lists","Zella API Services - Users - QA","Wed Oct 01 18:46:24 UTC 2025","passed","Wed Oct 01 18:46:24 UTC 2025","Characters","Comics","",""
+"","94","Update Profile","Zella API Services - Users - QA","Wed Oct 01 18:46:22 UTC 2025","passed","Wed Oct 01 18:46:22 UTC 2025","Info > Update Profile","Profile","",""
+"type_id  
+1 - Fans
+
+2 - Managers
+
+3 - Celebrities","76","Signup - Empty required field","Zella API Services - Users - QA","Wed Oct 01 18:46:18 UTC 2025","failed","Wed Oct 01 18:46:18 UTC 2025","Fans","Onboarding","",""
+"","72","Update Shipping Address  - No Auth Token","Zella API Services - Users - QA","Wed Oct 01 18:46:21 UTC 2025","passed","Wed Oct 01 18:46:21 UTC 2025","Shipping Address > Update Shipping address","Profile","",""
+"","69","Comics records  - No Auth token","Zella API Services - Users - QA","Wed Oct 01 18:46:26 UTC 2025","passed","Wed Oct 01 18:46:26 UTC 2025","Get comics records","Dashboard","",""
+"","66","Change Password*","Zella API Services - Users - QA","Wed Oct 01 18:46:22 UTC 2025","passed","Wed Oct 01 18:46:22 UTC 2025","Info > Change Password*","Profile","",""
+"","66","Delete comics record","Zella API Services - Users - QA","Wed Oct 01 18:46:24 UTC 2025","passed","Wed Oct 01 18:46:24 UTC 2025","Comics Record/Read","Comics","",""
+"","67","Stats*","Zella API Services - Users - QA","Wed Oct 01 18:46:25 UTC 2025","passed","Wed Oct 01 18:46:25 UTC 2025","Get Stats*","Dashboard","",""
+"","70","List Shipping Address - Invalid token","Zella API Services - Users - QA","Wed Oct 01 18:46:20 UTC 2025","passed","Wed Oct 01 18:46:21 UTC 2025","Shipping Address > List Shipping Address","Profile","",""
+"type_id  
+1 - Fans
+
+2 - Managers
+
+3 - Celebrities","412","Signup - Vendors","Zella API Services - Users - QA","Wed Oct 01 18:46:17 UTC 2025","passed","Wed Oct 01 18:46:17 UTC 2025","Clients - Vendors and Brands","Onboarding","",""
+"","5349","Get shipment options - Success","Zella API Services - Users - QA","Wed Oct 01 18:46:26 UTC 2025","passed","Wed Oct 01 18:46:31 UTC 2025","Shipment > Get shipment options","Orders","",""
+"","71","Login - Invalid email format","Zella API Services - Users - QA","Wed Oct 01 18:46:19 UTC 2025","passed","Wed Oct 01 18:46:19 UTC 2025","Login > Login","Authentication","",""
+"","66","Get single assignment","Zella API Services - Users - QA","Wed Oct 01 18:46:37 UTC 2025","passed","Wed Oct 01 18:46:37 UTC 2025","[Vendors] order assignments > Get vendors assignment by ID","Orders","",""
+"","71","Get product variant","Zella API Services - Users - QA","Wed Oct 01 18:46:37 UTC 2025","passed","Wed Oct 01 18:46:37 UTC 2025","Get Product Variant","Products","",""
+"","76","Get Shipping Address by ID","Zella API Services - Users - QA","Wed Oct 01 18:46:21 UTC 2025","failed","Wed Oct 01 18:46:21 UTC 2025","Shipping Address > Get Shipping address by ID","Profile","",""
+"","143","Login - fans","Zella API Services - Users - QA","Wed Oct 01 18:46:19 UTC 2025","passed","Wed Oct 01 18:46:20 UTC 2025","Local - do not change","Authentication","",""
+"","72","Delete cart item","Zella API Services - Users - QA","Wed Oct 01 18:46:38 UTC 2025","passed","Wed Oct 01 18:46:38 UTC 2025","Delete Cart Item","Carts","",""
+"","67","Get Single comics Series Episode","Zella API Services - Users - QA","Wed Oct 01 18:46:24 UTC 2025","passed","Wed Oct 01 18:46:24 UTC 2025","Publications/Episodes/Releases","Comics","",""
+"","65","View comics episode","Zella API Services - Users - QA","Wed Oct 01 18:46:24 UTC 2025","passed","Wed Oct 01 18:46:24 UTC 2025","Publications/Episodes/Releases","Comics","",""
+"","67","Delete design request images","Zella API Services - Users - QA","Wed Oct 01 18:46:23 UTC 2025","passed","Wed Oct 01 18:46:23 UTC 2025","Brands > Request Uploads > Delete design requests uploads","Design request","",""
+"","66","Upgrade to an creator","Zella API Services - Users - QA","Wed Oct 01 18:46:22 UTC 2025","passed","Wed Oct 01 18:46:22 UTC 2025","Fans specific","Profile","",""
+"","69","Challenges - Invalid token","Zella API Services - Users - QA","Wed Oct 01 18:46:26 UTC 2025","passed","Wed Oct 01 18:46:26 UTC 2025","Get Challenges","Dashboard","",""
+"type_id  
+1 - Fans
+
+2 - Managers
+
+3 - Celebrities","75","Signup - Success","Zella API Services - Users - QA","Wed Oct 01 18:46:18 UTC 2025","failed","Wed Oct 01 18:46:18 UTC 2025","Fans","Onboarding","",""
+"","79","Update Shipping Address  - Invalid ID","Zella API Services - Users - QA","Wed Oct 01 18:46:21 UTC 2025","failed","Wed Oct 01 18:46:21 UTC 2025","Shipping Address > Update Shipping address","Profile","",""
+"","65","Open challenges","Zella API Services - Users - QA","Wed Oct 01 18:46:25 UTC 2025","passed","Wed Oct 01 18:46:25 UTC 2025","Creators > Open challenges > View all","Challenges","",""
+"","65","View record","Zella API Services - Users - QA","Wed Oct 01 18:46:25 UTC 2025","passed","Wed Oct 01 18:46:25 UTC 2025","Creators > Participation records > Records > View record","Challenges","",""
+"","65","Comics record","Zella API Services - Users - QA","Wed Oct 01 18:46:24 UTC 2025","passed","Wed Oct 01 18:46:24 UTC 2025","Comics Record/Read","Comics","",""
+"","67","Cancel order","Zella API Services - Users - QA","Wed Oct 01 18:46:36 UTC 2025","passed","Wed Oct 01 18:46:37 UTC 2025","Orders operations > Cancel order","Orders","",""
+"","66","Download media documents","Zella API Services - Users - QA","Wed Oct 01 18:46:23 UTC 2025","passed","Wed Oct 01 18:46:23 UTC 2025","","Media","",""
+"","144","Login - Invalid password","Zella API Services - Users - QA","Wed Oct 01 18:46:19 UTC 2025","passed","Wed Oct 01 18:46:19 UTC 2025","Login > Login","Authentication","",""
+"","76","Add to Cart - Invalid Product ID","Zella API Services - Users - QA","Wed Oct 01 18:46:38 UTC 2025","passed","Wed Oct 01 18:46:38 UTC 2025","Add to Cart","Carts","",""
+"type_id  
+1 - Fans
+
+2 - Managers
+
+3 - Celebrities","72","Signup - weak password complexity","Zella API Services - Users - QA","Wed Oct 01 18:46:18 UTC 2025","failed","Wed Oct 01 18:46:18 UTC 2025","Creators","Onboarding","",""
+"## Refresh Token Endpoint
+
+This endpoint is used to obtain a new access token using a valid refresh token. It is part of the authentication flow, allowing users to maintain their session without needing to log in again.
+
+### Request
+
+- **Method**: POST
+    
+- **URL**: `{{rootUrl}}/auth/refresh-token`
+    
+- **Request Body**: The request must include a JSON object with the following key:
+    
+    - `refresh_token` (string): A valid refresh token that was previously issued to the user. This token is used to authenticate the request and generate a new access token.
+        
+
+### Example Request Body
+
+``` json
+{
+  ""refresh_token"": ""your_refresh_token_here""
+}
+
+ ```
+
+### Response
+
+Upon successful processing of the request, the response will contain a JSON object with the new access token and potentially other relevant information. The structure of the response typically includes:
+
+- `access_token` (string): The newly issued access token that the client can use for subsequent authenticated requests.
+    
+- `expires_in` (integer): The duration in seconds for which the access token is valid.
+    
+
+### Example Response
+
+``` json
+{
+  ""access_token"": ""new_access_token_here"",
+  ""expires_in"": 3600
+}
+
+ ```
+
+Ensure that the refresh token is valid and has not expired to receive a successful response.","72","Refresh token - Invalid token","Zella API Services - Users - QA","Wed Oct 01 18:46:19 UTC 2025","failed","Wed Oct 01 18:46:19 UTC 2025","Login > Refresh Token","Authentication","",""
+"","70","View comics episodes pages","Zella API Services - Users - QA","Wed Oct 01 18:46:25 UTC 2025","passed","Wed Oct 01 18:46:25 UTC 2025","Episode pages","Comics","",""
+"","10","Get Interests","Zella API Services - Users - QA","Wed Oct 01 18:46:37 UTC 2025","broken","Wed Oct 01 18:46:37 UTC 2025","Get Interests","Utilities","",""
+"","66","Record comics","Zella API Services - Users - QA","Wed Oct 01 18:46:24 UTC 2025","passed","Wed Oct 01 18:46:24 UTC 2025","Comics Record/Read","Comics","",""
+"","69","Challenges -No Auth Token","Zella API Services - Users - QA","Wed Oct 01 18:46:26 UTC 2025","passed","Wed Oct 01 18:46:26 UTC 2025","Get Challenges","Dashboard","",""
+"","160","Login","Zella API Services - Users - QA","Wed Oct 01 18:46:18 UTC 2025","passed","Wed Oct 01 18:46:19 UTC 2025","Login > Login","Authentication","",""
+"","67","Comics record Copy","Zella API Services - Users - QA","Wed Oct 01 18:46:24 UTC 2025","passed","Wed Oct 01 18:46:24 UTC 2025","Comics Record/Read","Comics","",""
+"type_id  
+1 - Fans
+
+2 - Managers
+
+3 - Celebrities","79","Signup - Invalid Phone Number","Zella API Services - Users - QA","Wed Oct 01 18:46:17 UTC 2025","passed","Wed Oct 01 18:46:17 UTC 2025","Clients - Vendors and Brands","Onboarding","",""
+"","65","View single","Zella API Services - Users - QA","Wed Oct 01 18:46:25 UTC 2025","passed","Wed Oct 01 18:46:25 UTC 2025","Creators > Open challenges > View single","Challenges","",""
+"","70","View cart","Zella API Services - Users - QA","Wed Oct 01 18:46:38 UTC 2025","passed","Wed Oct 01 18:46:38 UTC 2025","View Cart","Carts","",""
+"","11","Get Countries","Zella API Services - Users - QA","Wed Oct 01 18:46:37 UTC 2025","broken","Wed Oct 01 18:46:37 UTC 2025","Get Countries","Utilities","",""
+"type_id  
+1 - Fans
+
+2 - Managers
+
+3 - Celebrities","75","Signup - Weak password complexity","Zella API Services - Users - QA","Wed Oct 01 18:46:18 UTC 2025","failed","Wed Oct 01 18:46:18 UTC 2025","Fans","Onboarding","",""
+"","67","Delete Account","Zella API Services - Users - QA","Wed Oct 01 18:46:22 UTC 2025","passed","Wed Oct 01 18:46:22 UTC 2025","Info > Delete Account","Profile","",""
+"","90","Add to Cart - Negative quantity","Zella API Services - Users - QA","Wed Oct 01 18:46:38 UTC 2025","passed","Wed Oct 01 18:46:38 UTC 2025","Add to Cart","Carts","",""
+"","73","Update Shipping Address  - Invalid token","Zella API Services - Users - QA","Wed Oct 01 18:46:21 UTC 2025","passed","Wed Oct 01 18:46:21 UTC 2025","Shipping Address > Update Shipping address","Profile","",""
+"","316","Validate Bank Account","Zella API Services - Users - QA","Wed Oct 01 18:46:22 UTC 2025","passed","Wed Oct 01 18:46:22 UTC 2025","Bank and Bank Accounts > Validate Bank Account","Profile","",""
+"type_id  
+1 - Fans
+
+2 - Managers
+
+3 - Celebrities","12","Complete Registration -  Invalid Token","Zella API Services - Users - QA","Wed Oct 01 18:46:18 UTC 2025","broken","Wed Oct 01 18:46:18 UTC 2025","Complete/Verify Account","Onboarding","",""
+"","104","Add to Cart - Success","Zella API Services - Users - QA","Wed Oct 01 18:46:38 UTC 2025","passed","Wed Oct 01 18:46:38 UTC 2025","Add to Cart","Carts","",""
+"","157","Login - creator","Zella API Services - Users - QA","Wed Oct 01 18:46:19 UTC 2025","passed","Wed Oct 01 18:46:19 UTC 2025","Local - do not change","Authentication","",""
+"","66","Upload designs","Zella API Services - Users - QA","Wed Oct 01 18:46:25 UTC 2025","passed","Wed Oct 01 18:46:25 UTC 2025","Creators > Participate > Upload designs","Challenges","",""
+"","78","Add to Cart - Invalid Variant ID","Zella API Services - Users - QA","Wed Oct 01 18:46:38 UTC 2025","passed","Wed Oct 01 18:46:38 UTC 2025","Add to Cart","Carts","",""
+"","71","Update Profile - Invalid token","Zella API Services - Users - QA","Wed Oct 01 18:46:22 UTC 2025","passed","Wed Oct 01 18:46:22 UTC 2025","Info > Update Profile","Profile","",""
+"","66","Get vendors assignments","Zella API Services - Users - QA","Wed Oct 01 18:46:37 UTC 2025","passed","Wed Oct 01 18:46:37 UTC 2025","[Vendors] order assignments > Get vendors assignments","Orders","",""

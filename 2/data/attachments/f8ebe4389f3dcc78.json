@@ -1,0 +1,15 @@
+{
+    "Access-Control-Allow-Credentials": "true",
+    "Access-Control-Expose-Headers": "access-token,access_token,Set-Cookie,sessionId",
+    "Access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWJfaWQiOjIzMSwidXNlcm5hbWUiOiJkZXN0aW55ZXJoYWJvcjIrYXJ0aXN0QGdtYWlsLmNvbSIsInR5cGUiOiJDUkVBVE9SUyIsInNjb3BlIjpbIi9hdXRoL2xvZ2luIl0sImlhdCI6MTc1OTM0NDM3OSwiZXhwIjoxNzU5MzQ3OTc5LCJzdWIiOiJkZXN0aW55ZXJoYWJvcjIrYXJ0aXN0QGdtYWlsLmNvbSJ9.bTgU5g7AV1Fq34dJ0uQv-zgdzxpk302BF9qQin8LITQ",
+    "Content-Length": "939",
+    "Content-Type": "application/json; charset=utf-8",
+    "Date": "Wed, 01 Oct 2025 18:46:19 GMT",
+    "Etag": "W/\"3ab-PZp1+GohetQHsky1AW1yHmHYjDU\"",
+    "Ratelimit-Limit": "10",
+    "Ratelimit-Policy": "10;w=900",
+    "Ratelimit-Remaining": "5",
+    "Ratelimit-Reset": "900",
+    "Vary": "Origin",
+    "X-Powered-By": "Express"
+}
