@@ -1,0 +1,10 @@
+{
+    "merchant-x-secret": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl9uYW1lIjoiWmVsbGFBZnJpY2EiLCJjYXRlcmdvcnkiOiJjb21pY3MiLCJ0eXBlIjoibWVyY2hhbnRUb2tlbiIsImlhdCI6MTc0NTc5NjE4OH0.ZX_DKtH3wRpVNOQ9q8DYqQsTsQjU0Oc9udonuMF9XUE",
+    "User-Agent": "PostmanRuntime/7.39.1",
+    "Accept": "*/*",
+    "Cache-Control": "no-cache",
+    "Postman-Token": "a969cf35-cba5-4c53-a7c8-7be08fdea784",
+    "Host": "dev.api.clubzella.com",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Connection": "keep-alive"
+}

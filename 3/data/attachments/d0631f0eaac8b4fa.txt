@@ -1,0 +1,7 @@
+{
+    "email": "Archibaldmailinator.com",
+    "password": "#Randomsecurepassw0rd",
+    "phone_number": "07088842210",
+    "full_name": "Ayomide Liasu",
+    "type_id": 5 
+}

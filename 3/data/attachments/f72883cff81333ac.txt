@@ -1,0 +1,7 @@
+{
+    "email": "Erling@mailinator.com",
+    "password": "Test123@",
+    "phone_number": "",
+    "full_name": "Ayomide Liasu",
+    "type_id": 3 
+}

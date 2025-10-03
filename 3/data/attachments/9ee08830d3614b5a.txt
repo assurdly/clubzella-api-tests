@@ -1,0 +1,6 @@
+{
+  "title": "",
+  "category_id": 1,
+  "colors": "",
+  "catch_phrase": ""
+}

@@ -1,0 +1,1 @@
+{"success":false,"message":"Server Error","stack":"Error: Invalid refresh token\n    at RefreshTokenService.validate (/usr/src/app/dist/modules/auth/refresh-token.service.js:34:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async refreshToken (/usr/src/app/dist/modules/auth/controllers/auth.controller.js:255:30)"}

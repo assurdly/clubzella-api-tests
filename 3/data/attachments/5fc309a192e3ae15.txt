@@ -1,0 +1,14 @@
+{
+    "company_name": "Abernathy - Boyer",
+    "company_email": "Berniece.Lang48@hotmail.com",
+    "contact_full_name": "Raul Leffler",
+    "company_phone_number": "08101110011",
+    "type_id": 2, 
+    "country": "Nigeria",
+    "city": "Benin",
+    "onboard_meeting_date": "2025-01-01:00:00:00", 
+    
+    "nin": "222230011",
+    "password": "Tested1!"
+    
+}
