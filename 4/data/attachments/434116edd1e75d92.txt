@@ -1,0 +1,7 @@
+{
+    "email": "Gaymailinator.com",
+    "password": "Test123@",
+    "phone_number": "07085671154",
+    "full_name": "Ayomide Liasu",
+    "type_id": 3 
+}
