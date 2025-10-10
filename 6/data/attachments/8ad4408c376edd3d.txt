@@ -1,0 +1,7 @@
+{
+    "email": "Zakarymailinator.com",
+    "password": "#Randomsecurepassw0rd",
+    "phone_number": "07086252951",
+    "full_name": "Ayomide Liasu",
+    "type_id": 5 
+}

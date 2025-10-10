@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /media/document/c4ca4238a0b923820dcc509a6f75849b-1730821686714.pdf</pre>
+</body>
+</html>
