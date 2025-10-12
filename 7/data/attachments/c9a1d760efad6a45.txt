@@ -1,0 +1,1 @@
+{"success":false,"message":"unauthorized","stack":"unauthorized: unauthorized\n    at authorizeRequest (/usr/src/app/dist/middlewares/authorization.middleware.js:83:18)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)"}
