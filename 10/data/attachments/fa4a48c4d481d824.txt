@@ -1,0 +1,14 @@
+{
+    "uploads": [
+     {
+            "file_id": 1 
+            
+            },
+        {
+            "file_id": 2
+        },
+        {
+            "file_id": 3
+        }
+    ]
+}
