@@ -1,0 +1,1 @@
+{"success":false,"message":"Invalid credentials","details":"bad request","stack":"Invalid credentials: Invalid credentials\n    at login (/usr/src/app/dist/modules/auth/controllers/auth.controller.js:46:25)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)"}
