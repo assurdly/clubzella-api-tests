@@ -1,0 +1,7 @@
+{
+    "email": "Judah@mailinator.com",
+    "password": "#Randomsecurepassw0rd",
+    "phone_number": "07089142416",
+    "full_name": "Destiny Erhabor",
+    "type_id": 5 
+}
