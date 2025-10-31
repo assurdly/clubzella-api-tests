@@ -1,0 +1,1 @@
+{"message":"Successfully retrieved bank account details.","account":{"bank_name":"FCMB Plc","bank_code":"214","account_number":"3164119019","account_name":"IPENTAN KAYODE DANIEL"}}

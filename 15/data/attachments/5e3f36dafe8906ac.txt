@@ -1,0 +1,7 @@
+{
+    "email": "Dustinmailinator.com",
+    "password": "#Randomsecurepassw0rd",
+    "phone_number": "07087743453",
+    "full_name": "Ayomide Liasu",
+    "type_id": 5 
+}
