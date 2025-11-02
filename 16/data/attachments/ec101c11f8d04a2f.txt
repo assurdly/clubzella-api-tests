@@ -1,0 +1,12 @@
+{
+    "items": [
+        {
+            "record_id": 2,
+            "status": "approved"
+        },
+        {
+            "record_id": 1,
+            "status": "declined"
+        }
+    ]
+}
