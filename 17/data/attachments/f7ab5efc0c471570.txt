@@ -1,0 +1,7 @@
+{
+    "email": "Brandimailinator.com",
+    "password": "#Randomsecurepassw0rd",
+    "phone_number": "07086553015",
+    "full_name": "Ayomide Liasu",
+    "type_id": 5 
+}
