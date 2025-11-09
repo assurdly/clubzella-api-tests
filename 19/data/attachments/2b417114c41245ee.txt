@@ -1,0 +1,1 @@
+{"message":"Successfully fetched occassions","data":[{"id":1,"name":"Birthday","description":null},{"id":2,"name":"Banter","description":null},{"id":3,"name":"Joke","description":null},{"id":4,"name":"Wedding","description":null},{"id":5,"name":"Ceremony","description":null},{"id":6,"name":"Others","description":null}]}

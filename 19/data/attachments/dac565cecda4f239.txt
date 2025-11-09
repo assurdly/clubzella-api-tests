@@ -1,0 +1,4 @@
+{
+    "email": "adewunm+1@gmail.com",
+    "password": "#Randomsecurepassw0rd"
+}

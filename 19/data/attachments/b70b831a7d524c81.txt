@@ -1,0 +1,5 @@
+{
+  "product_id": 26,
+  "variant_id": 22,
+  "quantity": -2
+}

@@ -1,0 +1,1 @@
+{"success":false,"message":"contact full name is not allowed to be empty","stack":"Error: Validation failed\n    at /usr/src/app/node_modules/celebrate/lib/celebrate.js:95:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)"}
