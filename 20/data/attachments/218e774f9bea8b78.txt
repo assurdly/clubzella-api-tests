@@ -1,0 +1,4 @@
+{
+    "password": "#Randomsecurepassw0rd",
+    "nin": 1234567
+}
