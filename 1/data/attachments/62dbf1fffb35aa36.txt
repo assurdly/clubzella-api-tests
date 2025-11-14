@@ -1,5 +1,0 @@
-{
-    "status": "accepted", 
-    "vendor_notes": "" 
-    
-}

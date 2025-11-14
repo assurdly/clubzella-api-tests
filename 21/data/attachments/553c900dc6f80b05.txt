@@ -1,0 +1,7 @@
+{
+    "email": "Lesliemailinator.com",
+    "password": "#Randomsecurepassw0rd",
+    "phone_number": "07085824136",
+    "full_name": "Ayomide Liasu",
+    "type_id": 5 
+}

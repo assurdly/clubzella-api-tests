@@ -1,4 +1,0 @@
-{
-   "email": "ayomide+1@assurdly.com",
-    "password": "Test123@"
-}

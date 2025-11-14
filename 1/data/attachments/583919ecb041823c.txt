@@ -1,4 +1,0 @@
-{
-    "email": "destinyerhabor2+artist@gmail.com",
-    "password": "Tested1!"
-}

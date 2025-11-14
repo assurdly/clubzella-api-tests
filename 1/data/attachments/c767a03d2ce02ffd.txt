@@ -1,1 +1,0 @@
-{"message":"Successfully fetched bank accounts.","data":[]}

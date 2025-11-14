@@ -1,4 +1,0 @@
-{
-    "old_password": "supersecrirenewpassword",
-    "new_password": "supersecrirenewpassword"
-}
