@@ -1,0 +1,7 @@
+{
+    "email": "Perrymailinator.com",
+    "password": "#Randomsecurepassw0rd",
+    "phone_number": "07088738892",
+    "full_name": "Ayomide Liasu",
+    "type_id": 5 
+}
