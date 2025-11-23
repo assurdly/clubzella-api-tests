@@ -1,1 +1,0 @@
-{"code":"200","data":[],"success":true,"message":"Operation completed successfully","timestamp":"2025-10-08T18:47:49.884Z","page_number":1,"page_size":10,"total_elements":0,"total_pages":0}
