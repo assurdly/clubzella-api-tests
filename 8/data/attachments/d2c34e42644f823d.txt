@@ -1,7 +1,0 @@
-{
-    "email": "Sherwoodmailinator.com",
-    "password": "Test123@",
-    "phone_number": "07084601980",
-    "full_name": "Ayomide Liasu",
-    "type_id": 3 
-}

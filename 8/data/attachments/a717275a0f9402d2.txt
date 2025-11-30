@@ -1,7 +1,0 @@
-{
-    "email": "Ardenmailinator.com",
-    "password": "#Randomsecurepassw0rd",
-    "phone_number": "07088980527",
-    "full_name": "Ayomide Liasu",
-    "type_id": 5 
-}
