@@ -1,7 +1,0 @@
-{
-    "email": "Merlmailinator.com",
-    "password": "#Randomsecurepassw0rd",
-    "phone_number": "07088897332",
-    "full_name": "Ayomide Liasu",
-    "type_id": 5 
-}

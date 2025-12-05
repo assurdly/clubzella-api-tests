@@ -1,0 +1,7 @@
+{
+    "email": "Martine@mailinator.com",
+    "password": "Test12",
+    "phone_number": "07082512946",
+    "full_name": "Ayomide Liasu",
+    "type_id": 3 
+}
