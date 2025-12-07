@@ -1,7 +1,0 @@
-{
-    "email": "Shyannemailinator.com",
-    "password": "#Randomsecurepassw0rd",
-    "phone_number": "07086647623",
-    "full_name": "Ayomide Liasu",
-    "type_id": 5 
-}
