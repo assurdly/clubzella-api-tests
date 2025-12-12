@@ -1,0 +1,7 @@
+{
+    "email": "Bartonmailinator.com",
+    "password": "Test123@",
+    "phone_number": "07088003847",
+    "full_name": "Ayomide Liasu",
+    "type_id": 3 
+}

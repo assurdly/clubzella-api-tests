@@ -1,7 +1,0 @@
-{
-    "email": "Feltonmailinator.com",
-    "password": "#Randomsecurepassw0rd",
-    "phone_number": "07083869804",
-    "full_name": "Ayomide Liasu",
-    "type_id": 5 
-}
