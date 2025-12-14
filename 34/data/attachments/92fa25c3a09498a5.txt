@@ -1,0 +1,7 @@
+{
+    "email": "Myrticemailinator.com",
+    "password": "#Randomsecurepassw0rd",
+    "phone_number": "07089422360",
+    "full_name": "Ayomide Liasu",
+    "type_id": 5 
+}

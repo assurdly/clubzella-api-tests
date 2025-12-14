@@ -1,1 +1,0 @@
-{"success":false,"message":"Incorrect credentials.","details":"bad request","stack":"Incorrect credentials.: Incorrect credentials.\n    at login (/usr/src/app/dist/modules/auth/controllers/auth.controller.js:59:25)"}
