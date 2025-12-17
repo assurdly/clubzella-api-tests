@@ -1,7 +1,0 @@
-{
-    "email": "Cristianmailinator.com",
-    "password": "Test123@",
-    "phone_number": "07088062077",
-    "full_name": "Ayomide Liasu",
-    "type_id": 3 
-}
