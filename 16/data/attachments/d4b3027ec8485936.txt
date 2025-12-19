@@ -1,7 +1,0 @@
-{
-    "email": "Gilesmailinator.com",
-    "password": "#Randomsecurepassw0rd",
-    "phone_number": "07086857091",
-    "full_name": "Ayomide Liasu",
-    "type_id": 5 
-}
