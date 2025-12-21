@@ -1,0 +1,7 @@
+{
+    "email": "Price@mailinator.com",
+    "password": "Test12",
+    "phone_number": "07083093428",
+    "full_name": "Ayomide Liasu",
+    "type_id": 3 
+}
