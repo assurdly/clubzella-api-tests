@@ -1,7 +1,0 @@
-{
-    "email": "Marisamailinator.com",
-    "password": "Test123@",
-    "phone_number": "07081490060",
-    "full_name": "Ayomide Liasu",
-    "type_id": 3 
-}

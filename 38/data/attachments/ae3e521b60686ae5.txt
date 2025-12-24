@@ -1,0 +1,7 @@
+{
+    "email": "Dantemailinator.com",
+    "password": "#Randomsecurepassw0rd",
+    "phone_number": "07087294541",
+    "full_name": "Ayomide Liasu",
+    "type_id": 5 
+}
