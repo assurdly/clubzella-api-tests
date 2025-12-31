@@ -1,7 +1,0 @@
-{
-    "email": "Gunnermailinator.com",
-    "password": "Test123@",
-    "phone_number": "07085190539",
-    "full_name": "Ayomide Liasu",
-    "type_id": 3 
-}
