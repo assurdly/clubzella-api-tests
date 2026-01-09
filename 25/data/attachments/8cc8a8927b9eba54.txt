@@ -1,7 +1,0 @@
-{
-    "email": "Maybellmailinator.com",
-    "password": "#Randomsecurepassw0rd",
-    "phone_number": "07081901290",
-    "full_name": "Ayomide Liasu",
-    "type_id": 5 
-}

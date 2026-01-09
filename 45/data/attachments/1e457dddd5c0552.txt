@@ -1,0 +1,7 @@
+{
+    "email": "Abbeymailinator.com",
+    "password": "#Randomsecurepassw0rd",
+    "phone_number": "07084802626",
+    "full_name": "Ayomide Liasu",
+    "type_id": 5 
+}
