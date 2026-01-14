@@ -1,1 +1,0 @@
-{"success":false,"message":"Server Error","stack":"TypeError: Cannot read properties of undefined (reading 'is_super')\n    at UserMapper.toDTO (/usr/src/app/dist/modules/users/mapper/user.mapper.js:76:55)\n    at login (/usr/src/app/dist/modules/auth/controllers/auth.controller.js:53:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)"}
