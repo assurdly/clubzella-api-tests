@@ -1,0 +1,10 @@
+{
+    "merchant-x-secret": "",
+    "User-Agent": "PostmanRuntime/7.39.1",
+    "Accept": "*/*",
+    "Cache-Control": "no-cache",
+    "Postman-Token": "a3affe48-648b-40bd-b2ac-462c8f04673b",
+    "Host": "dev.api.clubzella.com",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Connection": "keep-alive"
+}

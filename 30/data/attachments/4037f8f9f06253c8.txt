@@ -1,7 +1,0 @@
-{
-    "email": "Vivianmailinator.com",
-    "password": "#Randomsecurepassw0rd",
-    "phone_number": "07089040447",
-    "full_name": "Ayomide Liasu",
-    "type_id": 5 
-}
