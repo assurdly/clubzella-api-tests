@@ -1,7 +1,0 @@
-{
-    "email": "Laruemailinator.com",
-    "password": "#Randomsecurepassw0rd",
-    "phone_number": "07086634648",
-    "full_name": "Ayomide Liasu",
-    "type_id": 5 
-}
