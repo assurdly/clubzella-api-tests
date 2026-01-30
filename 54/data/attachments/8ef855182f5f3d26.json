@@ -1,0 +1,10 @@
+{
+    "Access-Control-Allow-Credentials": "true",
+    "Access-Control-Expose-Headers": "access-token,access_token,Set-Cookie,sessionId",
+    "Content-Length": "447",
+    "Content-Type": "application/json; charset=utf-8",
+    "Date": "Fri, 30 Jan 2026 19:21:56 GMT",
+    "Etag": "W/\"1bf-0HAiW7bECIDMC5Jn1V0IWW6YZcI\"",
+    "Vary": "Origin",
+    "X-Powered-By": "Express"
+}
