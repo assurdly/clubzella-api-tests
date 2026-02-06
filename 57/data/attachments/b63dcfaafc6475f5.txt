@@ -1,0 +1,14 @@
+{
+    "company_name": "Greenholt Inc",
+    "company_email": "Paxton_Zulauf98@hotmail.com",
+    "contact_full_name": "Violet Ebert",
+    "company_phone_number": "08101110011",
+    "type_id": 2, 
+    "country": "Nigeria",
+    "city": "Benin",
+    "onboard_meeting_date": "2025-01-01:00:00:00", 
+    
+    "nin": "222230011",
+    "password": "Tested1!"
+    
+}
