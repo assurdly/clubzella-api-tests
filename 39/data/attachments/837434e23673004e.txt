@@ -1,7 +1,0 @@
-{
-    "email": "Evertmailinator.com",
-    "password": "#Randomsecurepassw0rd",
-    "phone_number": "07081000813",
-    "full_name": "Ayomide Liasu",
-    "type_id": 5 
-}

@@ -1,0 +1,7 @@
+{
+    "email": "Violettemailinator.com",
+    "password": "#Randomsecurepassw0rd",
+    "phone_number": "07086367969",
+    "full_name": "Ayomide Liasu",
+    "type_id": 5 
+}
