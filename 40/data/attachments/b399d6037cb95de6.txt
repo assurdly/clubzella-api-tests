@@ -1,7 +1,0 @@
-{
-    "email": "Oramailinator.com",
-    "password": "#Randomsecurepassw0rd",
-    "phone_number": "07083073131",
-    "full_name": "Ayomide Liasu",
-    "type_id": 5 
-}

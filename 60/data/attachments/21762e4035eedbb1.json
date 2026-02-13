@@ -1,0 +1,11 @@
+{
+    "Access-Control-Allow-Credentials": "true",
+    "Access-Control-Expose-Headers": "access-token,access_token,Set-Cookie,sessionId",
+    "Content-Length": "838",
+    "Content-Type": "application/json; charset=utf-8",
+    "Date": "Fri, 13 Feb 2026 19:32:18 GMT",
+    "Etag": "W/\"346-J9RbogQgWODMrJtLP2HFPugojA4\"",
+    "Set-Cookie": "sessionId=db363511-c7b6-49cd-89e2-8c43da79f4ee; Max-Age=2592000; Path=/; Expires=Sun, 15 Mar 2026 19:32:17 GMT; HttpOnly; Secure; SameSite=Lax",
+    "Vary": "Origin",
+    "X-Powered-By": "Express"
+}
