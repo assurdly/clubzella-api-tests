@@ -1,0 +1,12 @@
+{
+    "Content-Type": "application/json",
+    "User-Agent": "PostmanRuntime/7.39.1",
+    "Accept": "*/*",
+    "Cache-Control": "no-cache",
+    "Postman-Token": "f0f15d6c-e9ff-4901-91aa-51712b8d4924",
+    "Host": "dev.api.clubzella.com",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Connection": "keep-alive",
+    "Content-Length": "99",
+    "Cookie": "sessionId=27cf5c25-08cd-45ed-ba97-ffdbc5b8efcf"
+}
