@@ -1,0 +1,7 @@
+{
+    "email": "Ladariusmailinator.com",
+    "password": "#Randomsecurepassw0rd",
+    "phone_number": "07084187319",
+    "full_name": "Ayomide Liasu",
+    "type_id": 5 
+}
