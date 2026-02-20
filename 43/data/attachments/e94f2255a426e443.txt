@@ -1,7 +1,0 @@
-{
-    "email": "Vernon@mailinator.com",
-    "password": "Test12",
-    "phone_number": "07085781354",
-    "full_name": "Ayomide Liasu",
-    "type_id": 5 
-}
