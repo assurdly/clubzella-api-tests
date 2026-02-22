@@ -1,7 +1,0 @@
-{
-    "email": "Brettmailinator.com",
-    "password": "#Randomsecurepassw0rd",
-    "phone_number": "07084303136",
-    "full_name": "Ayomide Liasu",
-    "type_id": 5 
-}
