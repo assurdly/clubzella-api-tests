@@ -1,3 +1,0 @@
-{
-    "refresh_token": "87afd281-69bb-46d8-959a-b998ad35721f"
-}
